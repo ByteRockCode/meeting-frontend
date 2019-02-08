@@ -1,21 +1,24 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './Login.css';
+
 
 class Login extends Component {
     render() {
         return (
-            <div className="Login">
-                <header className="Login-header">
-                    <img src={logo} className="Login-logo" alt="logo" />
-                    <h1 className="Login-title">Welcome to React</h1>
+            <div className="landing">
+                <header className="landing__header">
+                    <h2 className="landing__subtitle">ByteRock</h2>
+                    <h1 className="landing__title">Meeting</h1>
                 </header>
-                <p className="Login-intro">
-                    To get started, edit <code>src/Login.js</code> and save to reload.
-                </p>
+
+                <div className="landing__content">
+                    <a className="button button--grey" href="#sigin">Iniciar Sesión</a>
+                    <a className="button button--blue" href="#singup">Registrarse</a>
+                </div>
             </div>
         );
     }
 }
+
 
 export default Login;

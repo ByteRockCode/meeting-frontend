@@ -1,0 +1,15 @@
+.info {
+    padding: 1rem;
+}
+
+.label {
+    font-size: 0.75em;
+}
+
+.agreement {
+    border: none;
+    padding: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+    outline: none;
+}

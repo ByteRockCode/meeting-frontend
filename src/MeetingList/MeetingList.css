@@ -6,23 +6,34 @@ html {
     color: #333;
     display: flex;
     font-size: 1em;
-    margin: 0.5rem 1rem;
-    border: 1px solid #EEE;
+    border-bottom: 1px solid #EEE;
+    text-decoration: none;
 }
 
 .meeting__motive {
-    flex: 1;
+    box-sizing: border-box;
     padding: 0.5rem 1rem;
+    flex: 1;
 }
 
 
 .meeting__from {
-    border-left: 1px solid #EEE;
+    box-sizing: border-box;
     padding: 0.5rem 1rem;
     text-align: center;
-    width: 105px;
-    box-sizing: border-box;
+    width: 70px;
 }
+
+
+.meeting__from__day {
+    font-size: 2em;
+}
+
+
+.meeting__from__month {
+    text-transform: uppercase;
+}
+
 
 .meeting__to {
     border-left: 1px solid #EEE;

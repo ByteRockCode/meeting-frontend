@@ -1,0 +1,35 @@
+.card {
+    margin: 1rem;
+    border-top: 1px solid #EEE;
+    border-right: 1px solid #EEE;
+    border-bottom: 0px solid #EEE;
+    border-left: 1px solid #EEE;
+}
+
+.card__header {
+    padding: 1rem;
+    font-weight: bold;
+    border-bottom: 2px solid #EEE;
+}
+
+.card__body {
+    border-bottom: 1px solid #EEE;
+    /*padding: 1rem;*/
+}
+
+.card > ul,
+.card > .ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.card > ul > li,
+.card > .ul > .li {
+    border: none;
+    border-bottom: 1px solid #EEE;
+    padding: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+    outline: none;
+}
